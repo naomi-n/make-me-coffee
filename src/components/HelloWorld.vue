@@ -4,6 +4,8 @@
       <h1>{{ msg }}</h1>
       <span>
       how would you like to prepare your coffee today?
+      <br>
+      <br>
       <CoffeeMethodDropdown :on-click='setCoffeeMethod' :coffeeMethods='coffeeMethods'></CoffeeMethodDropdown>
       </span>
         <!-- <p>Current selected: {{ activeCoffeeMethod.Method }}</p> -->

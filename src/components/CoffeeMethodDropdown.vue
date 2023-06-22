@@ -40,12 +40,18 @@ export default {
     padding: none;
     border: none;
 }
+.dropdown:hover {
+    color: white;
+    cursor: pointer;
+}
 .menu {
     cursor: pointer;
 }
+
 /* .menu-item {
-    color: green;
+    background: green;
 } */
+
 .menu-item:hover {
     color: white;
     cursor: pointer;

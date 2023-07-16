@@ -48,12 +48,9 @@ export default {
     cursor: pointer;
 }
 
-/* .menu-item {
-    background: green;
-} */
-
 .menu-item:hover {
     color: white;
     cursor: pointer;
+    display:block;
 }
 </style>

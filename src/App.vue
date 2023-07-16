@@ -37,21 +37,41 @@ else {
 
 <style>
 #app {
-  font-family: Avenir, Helvetica, Arial, sans-serif;
+  font-family: Helvetica;
+  font-size: 30px;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   text-align: center;
   color: #2c3e50;
-  margin-top: 60px;
+  margin-top: 100px;
+  animation: fadeInAnimation ease 3s;
+  animation-iteration-count: 1;
+  animation-fill-mode: forwards;
 }
 
 body {
-  background-color:rgb(203, 248, 216)
+  background-image: url("@/assets/lavender_matcha.jpg");
+  background-size: cover;
+  background-color:rgb(203, 248, 216);
 }
 
 button {
-  font-family: Avenir, Helvetica, Arial, sans-serif;
-  font-size: 16px;
-  color: #2c3e50;
+  font-family: Helvetica;
+  font-size: 30px;
+  color: #2c3e50ae;
+}
+
+@font-face {
+  font-family: Rosmatika;
+  src: url("@/assets/RosmatikaRegular-BWA45.ttf");
+}
+
+@keyframes fadeInAnimation {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+     }
 }
 </style>
